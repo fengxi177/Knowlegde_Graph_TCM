@@ -48,9 +48,6 @@ def create_graph_zhongyao():
     :return:
     """
 
-    nodes = []
-    # 加载关系数据
-
     # === 连接知识图谱
     connect_graph = Graph("http://localhost:7474", auth=("neo4j", "123456"))
 
